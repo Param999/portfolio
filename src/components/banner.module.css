@@ -1,0 +1,28 @@
+.container {
+    background: #F9EFE7;
+    height: 744px;
+    margin: 20px 40px;
+}
+
+.header {
+    padding: 36px 144px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navitems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navitems > div {
+    margin-left: 57px;
+    font-size: 18px;
+}
