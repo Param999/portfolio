@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Muli:wght@300;700&display=swap');
+
 .container {
     background: #F9EFE7;
     height: 744px;
     margin: 20px 40px;
+    font-family: 'Muli', sans-serif;
+    padding: 36px 144px;
 }
 
 .header {
-    padding: 36px 144px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,6 +18,7 @@
 .name {
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .navitems {
@@ -25,4 +30,18 @@
 .navitems > div {
     margin-left: 57px;
     font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-image: linear-gradient(transparent 60%, rgb(255, 232, 114) 50%);
+}
+
+.content {
+    margin-top: 113px;
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    font-size: 56px;
+    line-height: 76px;
+}
+
+.content > span {
+    background-image: linear-gradient(transparent 60%, rgb(255, 232, 114) 50%);
 }

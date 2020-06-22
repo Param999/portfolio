@@ -10,6 +10,10 @@ const Banner = () => (
                 <div>get in touch</div>
             </div>
         </nav>
+        <div className={bannerStyles.content}>
+            <span>Hi, I’m Param,</span> <br/>
+            <span>Full Stack Developer</span>
+        </div>
     </div>
 )
 
