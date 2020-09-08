@@ -1,0 +1,15 @@
+.projectContainer {
+    margin: 8rem;
+}
+
+.projectTitle {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 109.3%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #B7B4B9;
+    margin-bottom: 0.5rem;
+}

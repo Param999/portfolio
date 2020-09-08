@@ -14,6 +14,8 @@ const Banner = () => (
             <span>Hi, I’m Param,</span> <br/>
             <span>Full Stack Developer</span>
         </div>
+        <div className={bannerStyles.scroll}>SCROLL</div>
+        <div className={bannerStyles.line}></div>
     </div>
 )
 
