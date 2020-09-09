@@ -60,3 +60,8 @@
     border-radius: 5px;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.projectImage {
+    width: 45%;
+    border: 10px solid #F9EFE7;
+}

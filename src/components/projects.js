@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import projectStyles from './projects.module.css';
+import ProjectImage from './project-image';
 
 const Projects = () => {
     const data = useStaticQuery(
@@ -32,8 +33,8 @@ const Projects = () => {
                     <div className={projectStyles.projectName}>Beefit</div>
                     <div className={projectStyles.stacks}>
                         {
-                            data.allMarkdownRemark.edges[0].node.frontmatter.techStack.split(',').map(stack =>
-                                <div className={projectStyles.stack}>{stack}</div>
+                            data.allMarkdownRemark.edges[0].node.frontmatter.techStack.split(',').map((stack, idx) =>
+                                <div key={idx} className={projectStyles.stack}>{stack}</div>
                             )
                         }
                     </div>
@@ -46,8 +47,8 @@ const Projects = () => {
                         see this project
                     </a>
                 </div>
-                <div>
-                    Images
+                <div className={projectStyles.projectImage}>
+                    <ProjectImage />
                 </div>
             </div>
         </div>
