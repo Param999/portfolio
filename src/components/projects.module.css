@@ -11,5 +11,52 @@
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #B7B4B9;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projectData {
+    width: 50%
+}
+
+.projectName {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.stacks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.stack {
+    background: #F9EFE7;
+    padding: 0.3rem;
+    margin: 0 0.5rem 0.5rem 0;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.desc {
+    margin: 0.5rem 0 2rem 0;
+    font-family: Muli, sans-serif;
+}
+
+.link {
+    background: #000000;
+    padding: 1rem 2rem;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
 }
