@@ -6,8 +6,8 @@ const Banner = () => (
         <nav className={bannerStyles.header}>
             <div className={bannerStyles.name}>Param.</div>
             <div className={bannerStyles.navitems}>
-                <div>my work</div>
-                <div>get in touch</div>
+                <a href="#projects">my work</a>
+                <a href="#contacts">get in touch</a>
             </div>
         </nav>
         <div className={bannerStyles.content}>

@@ -1,0 +1,45 @@
+.footerContainer {
+    margin: 20px;
+    background: #F9EFE7;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.touch {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 2rem;
+    background-image: linear-gradient(transparent 60%, rgb(255, 232, 114) 50%);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.github {
+    background: url('../images/github.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 86.58px;
+    height: 70px;
+}
+
+.linkedin {
+    background: url('../images/linkedin.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85.66px;
+    height: 70px;
+}
+
+.email {
+    background: url('../images/email.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 86px;
+    height: 70px;
+}
