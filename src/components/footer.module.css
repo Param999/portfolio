@@ -24,22 +24,22 @@
     background: url('../images/github.svg');
     background-repeat: no-repeat;
     background-position: center;
-    width: 86.58px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .linkedin {
     background: url('../images/linkedin.svg');
     background-repeat: no-repeat;
     background-position: center;
-    width: 85.66px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .email {
     background: url('../images/email.svg');
     background-repeat: no-repeat;
     background-position: center;
-    width: 86px;
-    height: 70px;
+    width: 58px;
+    height: 58px;
 }
