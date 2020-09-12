@@ -1,7 +1,7 @@
 ---
 title: "Beefit"
 techStack: "React JS, Redux, Apollo, Express JS, PostgreSQL, Hasura GQE, RazorPay, Firebase, Heroku, AWS"
-url: "http://ofdp-web.herokuapp.com"
+url: "https://ofdp-web.herokuapp.com"
 ---
 
 
